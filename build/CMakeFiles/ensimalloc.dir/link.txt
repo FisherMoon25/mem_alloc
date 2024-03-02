@@ -1,0 +1,1 @@
+/usr/bin/cc -fPIC -g -Wall -Werror -fanalyzer -fsanitize=undefined -fsanitize-address-use-after-scope -shared -Wl,-soname,libensimalloc.so -o libensimalloc.so CMakeFiles/ensimalloc.dir/src/mem.c.o CMakeFiles/ensimalloc.dir/src/mem_internals.c.o CMakeFiles/ensimalloc.dir/src/mem_small.c.o CMakeFiles/ensimalloc.dir/src/mem_medium.c.o CMakeFiles/ensimalloc.dir/src/mem_large.c.o 
